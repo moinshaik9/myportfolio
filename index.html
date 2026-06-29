@@ -1,104 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Moinuddin Ahmed Shaik - Full Stack Developer and AWS Cloud Engineer Portfolio">
-<title>Moinuddin Ahmed Shaik | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moinuddin Ahmed Shaik | Full Stack Developer | AWS Cloud Engineer Portfolio">
+
+    <title>Moinuddin Ahmed Shaik | Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-<div class="loader"></div>
+
+<div id="progressBar"></div>
+
+<header>
 
 <nav class="navbar">
-  <div class="logo">Moinuddin Ahmed Shaik</div>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+
+<div class="logo">Moinuddin Ahmed Shaik</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#deployment">AWS</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="menu">
+<i class="fa-solid fa-bars"></i>
+</div>
+
 </nav>
 
-<header class="hero">
-  <div class="hero-content">
-    <h1>Moinuddin Ahmed Shaik</h1>
-    <h2>Full Stack Developer | Cloud Engineer (AWS)</h2>
-    <p>Building Scalable Web Applications & Cloud Solutions</p>
-    <a class="btn" href="http://13.205.109.173/" target="_blank">View AWS Deployment</a>
-  </div>
 </header>
 
-<section id="about">
-<h2>About Me</h2>
-<p>I am an aspiring Cloud Engineer and Backend Developer passionate about building scalable applications and deploying them on cloud infrastructure. I enjoy combining backend development with cloud technologies to create real-world systems that are reliable, secure, and efficient.</p>
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h3>Hello  I'm</h3>
+
+<h1>Moinuddin Ahmed Shaik</h1>
+
+<h2><span id="typing"></span></h2>
+
+<p>
+
+Aspiring Full Stack Developer and AWS Cloud Engineer passionate about building scalable applications and cloud solutions.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn">View Projects</a>
+
+
+
+<a href="Moin_Resume.png" download class="btn">
+Download Resume
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="mailto:smoinuddinahmed12@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://github.com/moinshaik9" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/moinuddin-ahmed-shaik-283776324/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="http://13.205.109.173/" target="_blank">
+<i class="fa-solid fa-cloud"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="1762437645904.jpeg" alt="Moinuddin Ahmed Shaik">
+
+</div>
+
 </section>
 
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+
+I'm a Computer Science Engineering student passionate about Backend Development, Cloud Computing, Java and Node.js.
+
+I enjoy building scalable applications using modern technologies and deploying them on AWS.
+
+</p>
+
+</section>
+
+<!-- SKILLS -->
+
 <section id="skills">
-<h2>Technical Skills</h2>
-<div class="grid">
-<div class="card">AWS EC2</div><div class="card">AWS S3</div>
-<div class="card">Node.js</div><div class="card">Express.js</div>
-<div class="card">MongoDB</div><div class="card">Python</div>
-<div class="card">Java</div><div class="card">HTML</div>
-<div class="card">CSS</div><div class="card">JavaScript</div>
-<div class="card">REST APIs</div><div class="card">Git/Linux</div>
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">Java</div>
+
+<div class="skill-card">Python</div>
+
+<div class="skill-card">HTML</div>
+
+<div class="skill-card">CSS</div>
+
+<div class="skill-card">JavaScript</div>
+
+<div class="skill-card">Node.js</div>
+
+<div class="skill-card">Express.js</div>
+
+<div class="skill-card">MongoDB</div>
+
+<div class="skill-card">AWS EC2</div>
+
+<div class="skill-card">AWS S3</div>
+
+<div class="skill-card">Linux</div>
+
+<div class="skill-card">Git & GitHub</div>
+
 </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+
+<!-- AWS DEPLOYMENT -->
+
+<section id="deployment">
+
+    <h2 class="section-title">AWS Live Deployment</h2>
+
+    <div class="project-card">
+
+        <h3>Production-Ready Node.js Application on AWS EC2</h3>
+
+        <p>
+            This project is deployed on an Amazon EC2 instance and demonstrates cloud deployment, Linux server management, and web hosting.
+        </p>
+
+        <a href="http://13.205.109.173/" target="_blank" class="btn">
+             View Live AWS Deployment
+        </a>
+
+    </div>
+
 </section>
 
 <section id="projects">
-<h2>Projects</h2>
-<div class="grid">
-<div class="project"><h3>Faculty Attendance Management System</h3><p>Node.js, Express.js, MongoDB</p></div>
-<div class="project"><h3>Mini Twitter Clone</h3><p>Authentication, Posts, Likes, Profiles</p></div>
-<div class="project"><h3>AI Resume Scanner</h3><p>Python, Resume Analysis</p></div>
-<div class="project"><h3>Java Backup & Recovery System</h3><p>Cloud Storage Integration</p></div>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+
+<h3>Faculty Attendance Management System</h3>
+
+<p>Node.js | Express | MongoDB</p>
+
+<a href="#">GitHub</a>
+
 </div>
+
+<div class="project-card">
+
+<h3>Mini Twitter Clone</h3>
+
+<p>Node.js | Authentication</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>AWS EC2 Portfolio Deployment</h3>
+
+<p>
+Hosted a responsive portfolio website on Amazon EC2 using Ubuntu, Nginx, Git, and Linux.
+</p>
+
+<a href="http://13.205.109.173/" target="_blank">
+🌐 Live Demo
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>AI Resume Scanner</h3>
+
+<p>Python</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Java Backup Recovery System</h3>
+
+<p>Java</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- EDUCATION -->
 
 <section id="education">
-<h2>Education</h2>
-<div class="timeline">
-<div class="timeline-item">
-<h3>B.Tech Computer Science</h3>
-<p>Chalapathi Institute of Technology, Guntur</p>
-<p>CGPA: 6.8</p>
+
+<h2 class="section-title">Education</h2>
+
+<div class="education-card">
+
+<h3>B.Tech Computer Science Engineering</h3>
+
+<p>Chalapathi Institute of Technology</p>
+
+<p>CGPA : 6.8</p>
+
 </div>
-</div>
+
 </section>
 
-<section id="certifications">
-<h2>Certifications</h2>
-<div class="grid">
-<div class="card">Deloitte Data Analytics Job Simulation</div>
-<div class="card">JPMorgan Chase Software Engineering Job Simulation</div>
+<!-- CERTIFICATIONS -->
+
+<section>
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+Deloitte Data Analytics Job Simulation
+
 </div>
+
+<div class="skill-card">
+
+JPMorgan Chase Software Engineering Job Simulation
+
+</div>
+
+<div class="skill-card">
+
+AWS Cloud Practitioner (In Progress)
+
+</div>
+
+</div>
+
 </section>
+
+<!-- CONTACT -->
 
 <section id="contact">
-<h2>Contact</h2>
-<form>
-<input type="text" placeholder="Your Name">
-<input type="email" placeholder="Your Email">
-<textarea placeholder="Message"></textarea>
-<button type="submit" class="btn">Send Message</button>
-</form><br> <br><br>
-<a href="mailto:smoinuddinahmed12@gmail.com" target="_blank">Email</a>
-&nbsp; &nbsp;
-<a href="https://www.linkedin.com/in/moinuddin-ahmed-shaik-283776324"
-target="_blank">LinkedIn</a>
-&nbsp; &nbsp;
-<a href="https://github.com/moinshaik9"
-target="_blank">GitHub</a>
-&nbsp; &nbsp;
-<a href="http://13.205.109.173/"
-target="_blank">Live AWS Project</a>
+
+<h2 class="section-title">Contact</h2>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<textarea rows="6" placeholder="Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
 
 </section>
 
 <footer>
-<p>© 2026 Moinuddin Ahmed Shaik | Full Stack Developer & Cloud Engineer</p>
+
+<p>
+
+© 2026 Moinuddin Ahmed Shaik
+
+<br>
+
+Designed with  using HTML CSS JavaScript
+
+</p>
+
 </footer>
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
 </body>
 </html>
